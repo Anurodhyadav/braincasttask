@@ -29,4 +29,10 @@ code {
   line-height: 24px;
 }
 
+.smaller-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
 

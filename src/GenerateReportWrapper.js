@@ -15,7 +15,7 @@ export default function GenerateReportWrapper() {
           </label>
           <input
             type="date"
-            className="bg-gray-50 border cursor-pointer border-gray-300  rounded-lg  w-[279px] h-[45px] p-2.5"
+            className=" cursor-pointer smaller-text bg-[#ffffff] border-[1px] border-[#4EAEEA]  rounded-[10px]  w-[279px] h-[45px] p-2.5"
             onChange={(e) => updateDateValue(e)}
             value={date}
             required
@@ -25,7 +25,7 @@ export default function GenerateReportWrapper() {
           <label for="Report Type" className="block heading-text mb-2 ">
             Report Type
           </label>
-          <select className="bg-gray-50 border cursor-pointer border-gray-300  rounded-lg  w-[279px] h-[45px] p-2.5 ">
+          <select className="bg-[#ffffff] smaller-text border-[#4EAEEA] border-[1px] cursor-pointer rounded-[10px]  w-[279px] h-[45px] p-2.5 ">
             <option selected>Grey Matter Report</option>
             <option value="R1">Report Type1</option>
             <option value="R2">Report Type2</option>
@@ -35,7 +35,7 @@ export default function GenerateReportWrapper() {
         </div>
       </div>
 
-      <div className="bg-[#4eaeea] cursor-pointer rounded-[20px] w-[192px] h-[44px] text-center text-[#ffffff] p-[8px]">
+      <div className="bg-[#4eaeea] font-[600] cursor-pointer rounded-[20px] w-[192px] h-[44px] text-center text-[#ffffff] p-[8px]">
         Generate
       </div>
     </div>
