@@ -15,7 +15,7 @@ ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 export default function Charts() {
   const [chartData, setChartData] = useState({});
   useEffect(() => {
-    fetch("/HCP_benchmark_data.csv")
+    fetch("HCP_benchmark_data.csv")
       .then((response) => response.text())
       .then((data) => {
         const benchmarkData = csvToArray(data);
