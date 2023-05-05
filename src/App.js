@@ -35,7 +35,7 @@ export default function App() {
             lesions, tumors, or structural abnormalities are seen. The
             ventricular system, sulci, and gyri are all well defined and
             symmetric. The brainstem and cerebellum are also normal in
-            appearance
+            appearance.
           </div>
         </div>
       </div>
